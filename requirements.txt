@@ -1,0 +1,8 @@
+flask
+Flask-HTTPAuth
+Flask-RESTful
+requests
+beautifulsoup4
+aiohttp
+gunicorn
+deta
