@@ -5,6 +5,9 @@ deta = Deta("c0tuummb_bRtUtBpGWyhhaLkpQGrX7JQAtiYM2eyd")
 
 users = deta.Base("Total_Classes")
 students = deta.Base("Students_Data")
+time = deta.Base("last_time")
+
+
 
 
 
@@ -87,6 +90,10 @@ def total_adder(names1,names2):
 def pin_checker(pin):
   fetch_res_2 = students.fetch({"Pin": f"{pin}"})
   return fetch_res_2.items
+
+def time_checker():
+    time_fetch = time.fetch({"time": "last"})
+    return time_fetch.items
 
 # def student_retr():
 #   table = soup.find('table')
