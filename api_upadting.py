@@ -10,7 +10,7 @@ students = deta.Base("Students_Data")
 def cookies_getting():
   url = "https://gietcampus.com/gec/default.aspx"
 
-  payload='__VIEWSTATE=%2FwEPDwULLTEyODk1NDc1MDEPZBYCAgMPZBYIAgEPDxYCHgRUZXh0ZWRkAgMPDxYCHwBlZGQCBw8PZBYCHgpvbmtleXByZXNzBRBfb25FbXBLZXlQcmVzcygpZAILDw9kFgIfAQUUX29uU3R1ZGVudEtleVByZXNzKClkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBQdpbWdCdG4xBQdpbWdCdG4yt6nq3g1uKWSXf5Zry%2BvldptB7ZI%3D&__VIEWSTATEGENERATOR=412E15A4&__EVENTVALIDATION=%2FwEWBwKe%2FePXBwKM%2B9rqDwLW44bXBAKM%2B87qDwKFqK2XBgKz5pu%2FBAKEovX%2BAuNU6NzzlMKRinVAd2O0snwxO3Z5&txtId1=20567&txtPwd1=1234&txtId2=20567&txtPwd2=1234&imgBtn1.x=39&imgBtn1.y=3'
+  payload='__VIEWSTATE=%2FwEPDwULLTEyODk1NDc1MDEPZBYCAgMPZBYIAgEPDxYCHgRUZXh0ZWRkAgMPDxYCHwBlZGQCBw8PZBYCHgpvbmtleXByZXNzBRBfb25FbXBLZXlQcmVzcygpZAILDw9kFgIfAQUUX29uU3R1ZGVudEtleVByZXNzKClkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBQdpbWdCdG4xBQdpbWdCdG4yt6nq3g1uKWSXf5Zry%2BvldptB7ZI%3D&__VIEWSTATEGENERATOR=412E15A4&__EVENTVALIDATION=%2FwEWBwKe%2FePXBwKM%2B9rqDwLW44bXBAKM%2B87qDwKFqK2XBgKz5pu%2FBAKEovX%2BAuNU6NzzlMKRinVAd2O0snwxO3Z5&txtId1=20567&txtPwd1=1234&txtId2=205678&txtPwd2=1234&imgBtn1.x=39&imgBtn1.y=3'
   headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     'Accept-Language': 'en-US,en;q=0.9',
